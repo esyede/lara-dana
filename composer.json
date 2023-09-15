@@ -1,0 +1,36 @@
+{
+    "name": "esyede/lara-dana",
+    "description": "Unofficial Dana Payment API package for Laravel",
+    "keywords": [
+        "esyede",
+        "lara-dana",
+        "DANA Laravel",
+        "payment gateway",
+        "dana payment api",
+        "payment"
+    ],
+    "authors": [
+        {
+            "name": "Suyadi",
+            "email": "suyadi.1992@gmail.com"
+        }
+    ],
+    "type": "library",
+    "minimum-stability": "dev",
+    "require": {
+        "laravel/framework": "^10.0"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Esyede\\Dana\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Esyede\\Dana\\DanaCoreServiceProvider"
+            ]
+        }
+    }
+}
